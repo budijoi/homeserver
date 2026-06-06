@@ -32,6 +32,25 @@ sudo ./installer.sh
 
 Tunggu hingga proses instalasi selesai.
 
+## Konfigurasi Cloudflare Tunnel (Opsional)
+Untuk menghubungkan server lokal Anda ke domain publik luar tanpa perlu IP Publik statis atau port forwarding, jalankan perintah ini via terminal setelah instalasi:
+# 1. Login ke akun Cloudflare Anda
+```cloudflared tunnel login```
+
+# 2. Buat tunnel baru
+```cloudflared tunnel create homeserver-b860h```
+
+# 3. Hubungkan domain/subdomain Anda melalui Cloudflare Zero Trust Dashboard.
+
+## 📂 Struktur Direktori Setelah Instalasi
+/mnt/sdcard : Lokasi utama mounting SDCARD.
+
+/var/www/html -> Symbolic Link ke /mnt/sdcard/www (Semua file web hosting disimpan aman di SDCARD).
+
+/etc/filebrowser.db : Berkas basis data pengaturan user FileBrowser.
+
+Dikembangkan khusus untuk efisiensi maksimum di atas arsitektur Amlogic S905X dengan memori terbatas.
+
 ## Screenshot
 
 ### Landing Page
