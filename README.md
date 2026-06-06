@@ -55,11 +55,11 @@ Dikembangkan khusus untuk efisiensi maksimum di atas arsitektur Amlogic S905X de
 
 ### Landing Page
 
-Tambahkan screenshot di sini.
+<img width="832" height="726" alt="landing" src="https://github.com/user-attachments/assets/e645c1a0-ff20-4af0-aa84-1c63b0dbb550" />
 
 ### File Browser
 
-Tambahkan screenshot di sini.
+<img width="1365" height="506" alt="filebrowser" src="https://github.com/user-attachments/assets/63285453-027b-4fc2-b934-6024da2a8d38" />
 
 ## Lisensi
 
