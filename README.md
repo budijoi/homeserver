@@ -25,7 +25,7 @@ Skrip otomasi untuk mengubah Set-Top Box (STB) **ZTE B860H v1** (RAM 1GB, eMMC 8
 Hubungkan STB Anda melalui SSH, kemudian jalankan baris perintah berikut untuk mengunduh dan mengeksekusi skrip:
 
 ```bash
-curl -O (https://raw.githubusercontent.com/budijoi/homeserver/main/installer.sh)
+curl -O https://raw.githubusercontent.com/budijoi/homeserver/main/installer.sh
 chmod +x installer.sh
 sudo ./installer.sh
 ```
