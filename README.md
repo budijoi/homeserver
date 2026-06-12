@@ -22,12 +22,20 @@ Skrip otomasi untuk mengubah Set-Top Box (STB) **ZTE B860H v1** (RAM 1GB, eMMC 8
 
 ## 💻 Cara Instalasi
 
-Hubungkan STB Anda melalui SSH, kemudian jalankan baris perintah berikut untuk mengunduh dan mengeksekusi skrip:
+Hubungkan STB Anda melalui SSH, kemudian jalankan baris perintah berikut untuk mengunduh dan mengeksekusi skrip(Pilih sesuai yang kamu butuhkan):
 
+Untuk yang EMMC STB nya masih normal.
 ```bash
 curl -O https://raw.githubusercontent.com/budijoi/homeserver/main/installer.sh
 chmod +x installer.sh
 sudo ./installer.sh
+```
+
+Untuk yang EMMC STB nya udah rungkad (semua data dan aplikasi akan disimpan di MicroSD, harap gunakan MicroSD class10 dengan kapasitas minimal 8 16 GB).
+```bash
+curl -O https://raw.githubusercontent.com/budijoi/homeserver/main/installer2.sh
+chmod +x installer2.sh
+sudo ./installer2.sh
 ```
 
 Tunggu hingga proses instalasi selesai.
